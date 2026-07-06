@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="いびきチェッカーのプライバシーポリシー">
+  <title>プライバシーポリシー - いびきチェッカー</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; line-height: 1.8; color: #333; background: #fafafa; }
+    .container { max-width: 800px; min-height: 100vh; margin: 0 auto; padding: 40px 24px; background: #fff; }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; color: #222; }
+    h2 { margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 2px solid #6b5b95; font-size: 1.2rem; }
+    p { margin: 0 0 12px; }
+    ul { margin: 8px 0 16px 24px; padding: 0; }
+    li { margin-bottom: 6px; }
+    a { color: #5d4c89; }
+    .meta { margin-bottom: 24px; color: #777; font-size: 0.9rem; }
+    .notice { margin: 16px 0; padding: 16px 20px; border: 1px solid #d8d0e8; border-radius: 8px; background: #f7f4fb; }
+    nav { margin: 24px 0; padding: 12px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+    nav a { display: inline-block; margin-right: 16px; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee; color: #888; font-size: 0.85rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">対象アプリ: いびきチェッカー（com.morio.snore）<br>文書バージョン: 1<br>制定・施行日: 2026年7月6日</p>
+
+    <nav aria-label="関連文書">
+      <a href="./privacy-policy.html" aria-current="page">プライバシーポリシー</a>
+      <a href="./terms.html">利用規約</a>
+      <a href="./faq.html">よくある質問</a>
+    </nav>
+
+    <p>MORIO_craft（以下「当開発者」）は、モバイルアプリ「いびきチェッカー」（以下「本アプリ」）における情報の取扱いについて、以下のとおり定めます。</p>
+
+    <h2>1. 基本方針</h2>
+    <p>本アプリは完全に端末内で動作し、インターネット接続の権限を持ちません。本アプリが録音音声や解析結果を当開発者のサーバーその他の端末外へ送信することはありません。</p>
+
+    <h2>2. 録音音声の取扱い</h2>
+    <div class="notice">
+      <p>本アプリは、利用者が「録音開始」を押した場合に限り、就寝中の音声をマイクで連続録音します。録音中は常時、端末の通知領域に録音中であることを表示します。</p>
+    </div>
+    <ul>
+      <li>録音中は、解析のために連続音声を端末内のアプリ専用領域へ一時保存します。</li>
+      <li>解析に成功した場合、連続録音した生音声を削除し、いびきと判定された区間のみを端末内に保存します。</li>
+      <li>録音の中断、アプリや端末の強制終了、解析失敗などが発生した場合、復旧や再解析のため、生音声が端末内に残ることがあります。</li>
+      <li>自動判定には誤りがあり得るため、保存された区間に会話、寝息、生活音などが含まれる可能性があります。</li>
+      <li>音声は端末のアプリ専用領域に保存されます。本アプリ独自の暗号化を施していることを保証するものではありません。</li>
+    </ul>
+
+    <h2>3. 本アプリが端末内で取り扱う情報と目的</h2>
+    <ul>
+      <li><strong>マイク音声:</strong> いびき候補区間を検出し、利用者が記録を確認できるようにするため。</li>
+      <li><strong>解析結果:</strong> いびきと判定された時間、回数、時間帯、日々の推移、一般的なセルフケア情報を表示するため。</li>
+      <li><strong>アプリ設定:</strong> オンボーディング、規約同意、録音説明の確認状態などを端末内に保持するため。</li>
+      <li><strong>動作ログ:</strong> 録音の継続状況や中断を端末内で確認し、復旧するため。</li>
+    </ul>
+
+    <h2>4. 外部送信、第三者提供および広告</h2>
+    <p>本アプリは、音声、解析結果、設定および動作ログを外部へ送信せず、第三者への提供、共有または販売を行いません。アカウント機能、広告、アクセス解析SDK、クラウド同期機能も組み込んでいません。</p>
+    <p>Google PlayやAndroid OSが、アプリ配信基盤の機能としてクラッシュ情報等を取り扱い、当開発者へ集計情報を提供する場合があります。これは本アプリ独自の送信機能によるものではなく、Googleの規約およびプライバシーポリシーに従って取り扱われます。</p>
+
+    <h2>5. 保存期間と削除</h2>
+    <ul>
+      <li>保存された録音区間、解析結果およびログは、利用者が削除するまで端末内に保持されます。</li>
+      <li>保存容量の上限に達した場合、本アプリは古い録音セッションから自動的に削除することがあります。</li>
+      <li>設定画面の「記録と録音を削除」から、録音、解析結果およびログを削除できます。</li>
+      <li>削除処理に失敗した場合、本アプリは完了扱いにせず、利用者へ通知します。</li>
+      <li>本アプリをアンインストールすると、OSの仕様に従い本アプリの専用領域にあるデータが削除されます。</li>
+    </ul>
+
+    <h2>6. 使用する権限</h2>
+    <ul>
+      <li><strong>マイク:</strong> 利用者が開始した就寝中の録音に使用します。</li>
+      <li><strong>通知:</strong> 録音中の常駐通知、解析完了、中断や容量不足のお知らせに使用します。</li>
+      <li><strong>フォアグラウンドサービス（マイク）:</strong> 画面を消した状態でも録音を継続するために使用します。</li>
+    </ul>
+    <p>本アプリはインターネット接続（INTERNET）の権限を持ちません。</p>
+
+    <h2>7. 利用対象年齢</h2>
+    <p>本アプリは18歳以上の方を対象としています。</p>
+
+    <h2>8. 医療に関する注意</h2>
+    <p>本アプリは医療機器ではなく、病気の診断、治療または予防を目的とするものではありません。表示内容は一般的な記録および情報提供です。気になる症状がある場合は、医療機関へご相談ください。</p>
+
+    <h2>9. 本ポリシーの変更</h2>
+    <p>本ポリシーを変更する場合は、本ページで変更内容と施行日をお知らせします。情報の取扱いに重要な変更がある場合は、必要に応じてアプリ内でもお知らせします。</p>
+
+    <h2>10. お問い合わせ</h2>
+    <p>開発者: MORIO_craft<br>メール: <a href="mailto:ppc00681158@gmail.com">ppc00681158@gmail.com</a></p>
+
+    <div class="footer">&copy; 2026 MORIO_craft. All rights reserved.</div>
+  </main>
+</body>
+</html>
